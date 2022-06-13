@@ -14,11 +14,12 @@
 
 ### Решение задачи
 
-```python
-# TODO: you code here...
-```
-
----
+n = int(input('n: '))
+count =0
+while n>0:
+    if n > 0:
+        print(n)
+    n -=1
 
 ### Подсказки
 
