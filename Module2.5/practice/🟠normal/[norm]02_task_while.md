@@ -15,11 +15,19 @@
 
 ### Решение задачи
 
-```python
-# TODO: you code here...
-```
+stop = 5
+print("Для окончания программы введите", stop)
+total = 1
+a = int (input('введите число: '))
 
----
+while a!= stop:
+    a = int (input('введите число: '))
+    if a>0:
+        total +=1
+    else:
+        total
+
+print(total)
 
 ### Подсказки
 
