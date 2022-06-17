@@ -31,3 +31,10 @@
 # 20 199.8 Rub.
 
 # TODO: your code here
+
+a = float(input("Введите стоимость единицы товара: "))
+count = 1
+
+while count <= 20:
+    print(a*count,' руб.')
+    count +=1
