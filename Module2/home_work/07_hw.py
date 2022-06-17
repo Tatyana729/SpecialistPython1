@@ -14,3 +14,13 @@
 #    #
 #    #
 ######
+
+a = int(input('введите число: '))
+count = 0
+
+while count <= a:
+    if count == 0 or count == a:
+        print("#" * a)
+    else:
+        print('#',' '*(a-4),'#')
+    count += 1
