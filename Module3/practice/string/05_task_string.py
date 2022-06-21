@@ -6,3 +6,12 @@
 
 # TODO: your code here
 
+text = 'И темен город. Мороз узором дорог не мети.'
+text_rev = list(reversed(text.lower().replace(' ','').replace('.','')))
+text = list(text.lower().replace(' ','').replace('.',''))
+
+if text_rev == text:
+    print('перевертыш')
+else:
+    print('не перевертыш')
+  
