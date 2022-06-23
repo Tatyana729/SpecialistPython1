@@ -5,3 +5,11 @@
 # Пример:
 # Дано: [2, -5, 8, 9, -25, 25, 4]
 # Результат: [3, 5, 2]
+
+numbers = [2, -5, 8, 9, -25, 25, 4]
+list_k2 =[]
+
+for number in numbers:
+    if number>0 and int(number**0.5)==number**0.5:
+         list_k2.append(int(number**0.5))
+print(list_k2)
