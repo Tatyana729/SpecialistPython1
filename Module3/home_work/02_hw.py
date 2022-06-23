@@ -3,6 +3,7 @@
 # Подсказка:
 # для получения случайного числа используйте функцию randint() модуля random
 import random
-numbers = []
+numbers = [100,-100]
 # print(random.randint(10, 20))  # раскомментируйте, чтобы посмотреть работу функции randint
 # TODO: your code here
+print(random.randint(numbers[1], numbers[0]))
