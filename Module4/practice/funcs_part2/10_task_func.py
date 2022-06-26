@@ -1,9 +1,11 @@
 # Напишите функцию, находящую среднее арифметическое всех аргументов
 # Функция должна вызываться с любым количеством аргументов
-
 def average(*args):
-    # TODO: your code here
-    pass
+    sum_el = 0
+    for el in args:
+        sum_el +=el
+    average_el= sum_el/len(args)
+    return f'{average_el:.3}'
 
 
 print(average(3, 4, 8))
